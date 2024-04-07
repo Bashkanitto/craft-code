@@ -15,12 +15,21 @@ module.exports = {
     },
     keyframes: {
       loop: {
-        to: {
-          "offset-distance": "100%",
+        "0%": {
+          transform: "translateX(-100px)",
+        },
+        "50%": {
+          transform: "translateX(0px)",
+        },
+        "100%": {
+          transform: "translateX(100px)",
         },
       },
     },
     extend: {
+      colors: {
+        green: "#16a34a",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
