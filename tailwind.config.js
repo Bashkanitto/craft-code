@@ -1,11 +1,25 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "media",
   theme: {
+    fontFamily: {
+      sans: ["Geist", "Inter", ...defaultTheme.fontFamily.sans],
+      mono: ["GeistMono", "fira-code", ...defaultTheme.fontFamily.mono],
+    },
+    keyframes: {
+      loop: {
+        to: {
+          "offset-distance": "100%",
+        },
+      },
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
