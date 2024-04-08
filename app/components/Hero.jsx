@@ -3,7 +3,7 @@ import { heroList } from "./Constants";
 const Hero = () => {
   return (
     <section class="relative flex flex-col  justify-center items-center text-white text-center gap-10">
-      <button className="p-1 pr-2 border rounded-full flex gap-2 items-center">
+      <button className="p-1 pr-2 border border-gray-700 rounded-full flex gap-2 items-center">
         <span className="bg-green p-1 px-2 rounded-full">New</span>Introducing
         to development
       </button>
@@ -15,10 +15,12 @@ const Hero = () => {
         Раскрой свой потенциал в программировании: продвинутые концепции в нашей
         офлайн-школе программирования
       </p>
-      <button className="mb-10 p-3 px-6 bg-green ring-4 ring-white rounded-xl">
-        Связатся
-      </button>
-      <div className="mb-80 cards w-[500px] h-60 overflow-hidden border rounded-2xl flex justify-center items-center">
+      <div className="p-1 rounded-2xl border border-neutral-700 mb-20">
+        <button className=" p-3 px-6 bg-green rounded-xl text-xl">
+          Связатся
+        </button>
+      </div>
+      <div className="mb-80 cards w-[500px] h-60 overflow-hidden border border-gray-700 rounded-2xl flex justify-center items-center shadow-xl shadow-zinc-800">
         {heroList.map((item) => (
           <div
             className="flex flex-col gap-5 justify-center min-w-[400px]"

@@ -35,6 +35,26 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontSize: {
+        h1: ["2.5rem", { lineHeight: "3rem" }],
+        h2: ["30px", { lineHeight: "2.5rem" }],
+        h3: ["1.5rem", { lineHeight: "2rem" }],
+      },
+      borderColor: (theme) => ({
+        ...theme("colors"),
+        primary: "#3490dc",
+        secondary: "#ffed4a",
+        danger: "#e3342f",
+      }),
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+        },
+      },
     },
   },
   plugins: [],

@@ -3,10 +3,13 @@ import { advantagesList } from "./Constants";
 
 const Advantages = () => {
   return (
-    <section class="relative flex flex-col  justify-center items-center text-white text-center gap-10">
-      <div className="blocks flex flex-col md:flex-row">
+    <section class="container mx-auto flex flex-col  justify-center items-center text-white text-center gap-10">
+      <div className="blocks flex flex-col md:flex-row flex-wrap gap-5">
         {advantagesList.map((item) => (
-          <div className="border w-full" key={item.id}>
+          <div
+            className="border border-gray-700 w-full md:w-[400px] p-10 rounded-2xl flex flex-col justify-center items-center"
+            key={item.id}
+          >
             <Image width={100} height={100} src={item.img} />
             <h2>{item.h2}</h2>
             <p>{item.p}</p>
