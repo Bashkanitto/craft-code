@@ -19,34 +19,42 @@ export const heroList = [
 export const advantagesList = [
   {
     id: 1,
-    img: "",
+    img: "/images/flutter.png",
     h2: "Web",
     p: "Разработка сайтов",
   },
   {
     id: 2,
-    img: "",
+    img: "/images/nodejs.png",
     h2: "Web",
     p: "Разработка сайтов",
   },
   {
     id: 3,
-    img: "",
+    img: "/images/js.png",
     h2: "Web",
     p: "Разработка сайтов",
   },
   {
     id: 4,
-    img: "",
+    img: "/images/python.png",
     h2: "Web",
     p: "Разработка сайтов",
   },
   {
     id: 5,
-    img: "",
+    img: "/images/react.png",
     h2: "Web",
     p: "Разработка сайтов",
   },
+];
+
+export const stack = [
+  "/images/react.png",
+  "/images/js.png",
+  "/images/nodejs.png",
+  "/images/python.png",
+  "/images/flutter.png",
 ];
 
 export const footerList = [

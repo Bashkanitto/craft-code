@@ -60,3 +60,10 @@
       offset-distance: 100%;
   }
 }
+
+h2{
+  font-size: 30px;
+}
+p{
+  color: rgba(255,255,255,0.7);
+}
