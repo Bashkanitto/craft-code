@@ -108,3 +108,15 @@ export const footerList = [
     },
   },
 ];
+
+export const comunityList = [
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+  "/images/imgAidyn.jpg",
+];
