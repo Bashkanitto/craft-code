@@ -1,11 +1,44 @@
-import Image from "next/image";
-import { advantagesList } from "./Constants";
+import { footerList } from "./Constants";
 
 const Footer = () => {
   return (
-    <footer class="container mx-auto flex flex-col md:flex-row justify-between items-center bg-zinc-700 text-center gap-10">
-      <h2>© Smavy 2024</h2>
-      <p>License</p>
+    <footer class="container p-2 px-4 text-lg text-stone-200 rounded-lg mx-auto">
+      <nav className="flex justify-between px-4 mb-10">
+        {footerList.map((item) => (
+          <ul className="flex flex-col gap-3" key={item}>
+            <li>{item.enterprice.title}</li>
+            {item.enterprice.list.map((item) => (
+              <li className="text-zinc-400" key={item.link}>
+                <a href="#">{item.title}</a>
+              </li>
+            ))}
+          </ul>
+        ))}
+        {footerList.map((item) => (
+          <ul className="flex flex-col gap-3" key={item}>
+            <li>{item.docs.title}</li>
+            {item.enterprice.list.map((item) => (
+              <li className="text-zinc-400" key={item.link}>
+                <a href="#">{item.title}</a>
+              </li>
+            ))}
+          </ul>
+        ))}
+        {footerList.map((item) => (
+          <ul className="flex flex-col gap-3" key={item}>
+            <li>{item.comunity.title}</li>
+            {item.enterprice.list.map((item) => (
+              <li className="text-zinc-400" key={item.link}>
+                <a href="#">{item.title}</a>
+              </li>
+            ))}
+          </ul>
+        ))}
+      </nav>
+      <div className="rounded-lg flex justify-between p-2  bg-zinc-700">
+        <h2>© Smavy 2024</h2>
+        <p>License</p>
+      </div>
     </footer>
   );
 };

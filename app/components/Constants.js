@@ -48,3 +48,63 @@ export const advantagesList = [
     p: "Разработка сайтов",
   },
 ];
+
+export const footerList = [
+  {
+    enterprice: {
+      title: "Enterprice",
+      list: [
+        {
+          title: "About",
+          link: "",
+        },
+        {
+          title: "Customers",
+          link: "",
+        },
+        {
+          title: "Partners",
+          link: "",
+        },
+        {
+          title: "Employee",
+          link: "",
+        },
+      ],
+    },
+    comunity: {
+      title: "comunity",
+      list: [
+        {
+          title: "Github",
+          link: "",
+        },
+        {
+          title: "LinkedIn",
+          link: "",
+        },
+        {
+          title: "Instagram",
+          link: "",
+        },
+      ],
+    },
+    docs: {
+      title: "comunity",
+      list: [
+        {
+          title: "Github",
+          link: "",
+        },
+        {
+          title: "LinkedIn",
+          link: "",
+        },
+        {
+          title: "Instagram",
+          link: "",
+        },
+      ],
+    },
+  },
+];
