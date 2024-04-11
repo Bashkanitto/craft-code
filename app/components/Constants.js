@@ -48,6 +48,26 @@ export const advantagesList = [
     p: "Разработка сайтов",
   },
 ];
+export const reviewList = [
+  {
+    id: 1,
+    img: "/images/imgAidyn.jpg",
+    h2: "Жандос Уалиханов",
+    p: "Не имея опыта веб-дизайна, я просто за несколько минут изменил дизайн всего своего веб-сайта с помощью Tailwindcss благодаря Tailus.",
+  },
+  {
+    id: 2,
+    img: "/images/imgAidyn.jpg",
+    h2: "Жандос Уалиханов",
+    p: "Не имея опыта веб-дизайна, я просто за несколько минут изменил дизайн всего своего веб-сайта с помощью Tailwindcss благодаря Tailus.",
+  },
+  {
+    id: 3,
+    img: "/images/imgAidyn.jpg",
+    h2: "Жандос Уалиханов",
+    p: "Не имея опыта веб-дизайна, я просто за несколько минут изменил дизайн всего своего веб-сайта с помощью Tailwindcss благодаря Tailus.",
+  },
+];
 
 export const stack = [
   "/images/react.png",
@@ -118,13 +138,9 @@ export const footerList = [
 ];
 
 export const comunityList = [
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
-  "/images/imgAidyn.jpg",
+  "/images/team-али-жанузак.jpeg",
+  "/images/team-арсен-октябрь.jpeg",
+  "/images/team-джайшибеков-роман.jpeg",
+  "/images/team-жанысбай-даулет.jpeg",
+  "/images/team-куаныш-карибай.jpeg",
 ];

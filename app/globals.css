@@ -6,6 +6,9 @@
   transition: 0.5s;
   scroll-behavior: smooth;
 }
+body{
+  background: #000000;
+}
 
 @font-face {
   font-family: 'Geist';
@@ -47,19 +50,6 @@
   font-display: swap;
 }
 
-.swiper-pagination-bullet{
-  @apply !bg-gray-200 dark:!bg-gray-700 !opacity-100;
-}
-
-.swiper-pagination-bullet-active{
-  @apply !bg-gray-950 dark:!bg-white;
-}
-
-@keyframes loop {
-  to {
-      offset-distance: 100%;
-  }
-}
 
 h2{
   font-size: 30px;
