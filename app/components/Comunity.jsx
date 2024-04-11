@@ -10,12 +10,12 @@ const Comunity = () => {
         <p>Harum quae dolore orrupti aut temporibus ariatur.</p>
       </div>
       <div className="flex flex-wrap justify-center w-1/2 mx-auto gap-2">
-        {comunityList.map((item) => (
+        {comunityList.map((item, index) => (
           <Image
-            width={50}
-            height={50}
-            className="rounded-full w-[80px] h-[80px] object-cover"
-            key={item}
+            width={300}
+            height={300}
+            className="rounded-full w-[80px] h-[300px] object-cover hover:w-[200px] hover:opacity-20 after:content-['Hovering'] hover:h-[300px] transition-all duration-500"
+            key={index}
             src={item}
             alt={item}
           />
