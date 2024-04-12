@@ -3,7 +3,10 @@ import { advantagesList, reviewList } from "./Constants";
 
 const Advantages = () => {
   return (
-    <section className="container mx-auto flex flex-col  justify-center items-center text-white text-center gap-10 mb-40">
+    <section
+      id="stack"
+      className="container mx-auto flex flex-col justify-center items-center text-white text-center gap-10 mb-40"
+    >
       <div className="blocks flex flex-col md:flex-row flex-wrap gap-5">
         {advantagesList.map((item) => (
           <div
