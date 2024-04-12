@@ -3,10 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="container mb-40 rounded-2xl">
-      <h2 className="text-center">О нас</h2>
-      <div className=" flex justify-center items-center">
-        <p>
+    <section className="container mb-40">
+      <h2 className="text-center mb-5">О Нас</h2>
+      <div className=" flex flex-col md:flex-row gap-10 justify-center items-center h-60">
+        <p className="text-xs text-center md:text-start overflow-scroll h-full">
           CraftCode - школа программирования, основанная в начале 2023 года
           профессионалами с опытом более 7 лет в крупных IT-проектах, таких как
           Kaspi, Сергек, Алматы бизнес, Freedom bank, DAR. Мы предлагаем
@@ -19,6 +19,7 @@ const About = () => {
         <Image
           width={500}
           height={500}
+          className="w-1/2 h-full"
           src="/images/illustration-about.png"
           alt="about-us-images"
         />

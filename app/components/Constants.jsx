@@ -124,8 +124,25 @@ export const footerList = [
 ];
 
 export const comunityList = [
-  "/images/team-арсен-октябрь.jpeg",
-  "/images/team-джайшибеков-роман.jpeg",
-  "/images/team-жанысбай-даулет.jpeg",
-  "/images/team-куаныш-карибай.jpeg",
+  {
+    id: 1,
+    name: "Арсен октябрь",
+    img: "/images/team-арсен-октябрь.jpeg",
+  },
+  {
+    id: 2,
+    name: "Джайшибеков Роман",
+    img: "/images/team-джайшибеков-роман.jpeg",
+  },
+  {
+    id: 3,
+    name: "Жанысбай Дәулет",
+    img: "/images/team-жанысбай-даулет.jpeg",
+  },
+  {
+    id: 4,
+    name: "Қуаныш Кәрібай",
+    img: "/images/team-куаныш-карибай.jpeg",
+    p: "Android AR, Odoo Python.",
+  },
 ];

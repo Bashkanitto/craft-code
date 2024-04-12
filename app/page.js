@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
-import Review from "./components/review";
+import Review from "./components/Review";
 
 export default function Home() {
   return (

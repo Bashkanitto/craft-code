@@ -5,16 +5,20 @@ const Hero = () => {
         <span className="bg-green p-1 px-2 rounded-full">New</span>Introducing
         to development
       </button>
-      <h1 className="text-6xl font-bold">Crafting Code, Crafting Careers!</h1>
+      <h1 className="text-4xl md:text-6xl font-bold">
+        Crafting Code, Crafting Careers!
+      </h1>
 
-      <p className="w-2/3 text-xl">
+      <p className="w-full md:w-2/3 text-md md:text-xl">
         Раскрой свой потенциал в программировании: продвинутые концепции в нашей
         офлайн-школе программирования
       </p>
       <div className="p-1 rounded-2xl border border-neutral-700 mb-20">
-        <button className=" p-3 px-6 bg-green rounded-xl text-xl">
-          Связатся
-        </button>
+        <a href="#contact">
+          <button className=" p-3 px-6 bg-green rounded-xl text-xl">
+            Связатся
+          </button>
+        </a>
       </div>
     </section>
   );
