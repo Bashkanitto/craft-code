@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const Comunity = () => {
   return (
-    <section className="container mx-auto mb-40">
+    <section id="comunity" className="container mx-auto mb-40">
       <div className="flex flex-col items-center text-center w-full md:w-1/2 mx-auto mb-10 gap-5">
         <p className=" text-green">Команда</p>
         <h2>Вдохновленная Команда, Готовая Привести Вас к Успеху!</h2>
       </div>
       <div className="flex flex-wrap justify-center w-full mx-auto gap-2">
         {comunityList.map((item) => (
-          <div key={item.id} className="group relative">
+          <div key={item.id} className=" cards group relative">
             <Image
               width={300}
               height={300}
