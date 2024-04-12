@@ -2,33 +2,35 @@ import { footerList } from "./Constants";
 
 const Footer = () => {
   return (
-    <footer class="container p-2 px-4 text-lg text-stone-200 rounded-lg mx-auto">
+    <footer className="container p-2 px-4 text-lg text-stone-200 rounded-lg mx-auto">
       <nav className="flex justify-between px-4 mb-10">
-        {footerList.map((item) => (
-          <ul className="flex flex-col gap-3" key={item}>
+        {footerList.map((item, index) => (
+          <ul className="flex flex-col gap-3" key={index}>
             <li>{item.enterprice.title}</li>
-            {item.enterprice.list.map((item) => (
-              <li className="text-zinc-400" key={item.link}>
+            {item.enterprice.list.map((item, index) => (
+              <li className="text-zinc-400" key={index}>
                 <a href="#">{item.title}</a>
               </li>
             ))}
           </ul>
         ))}
-        {footerList.map((item) => (
-          <ul className="flex flex-col gap-3" key={item}>
+
+        {footerList.map((item, index) => (
+          <ul className="flex flex-col gap-3" key={index}>
             <li>{item.docs.title}</li>
-            {item.enterprice.list.map((item) => (
-              <li className="text-zinc-400" key={item.link}>
+            {item.enterprice.list.map((item, index) => (
+              <li className="text-zinc-400" key={index}>
                 <a href="#">{item.title}</a>
               </li>
             ))}
           </ul>
         ))}
-        {footerList.map((item) => (
-          <ul className="flex flex-col gap-3" key={item}>
+
+        {footerList.map((item, index) => (
+          <ul className="flex flex-col gap-3" key={index}>
             <li>{item.comunity.title}</li>
-            {item.enterprice.list.map((item) => (
-              <li className="text-zinc-400" key={item.link}>
+            {item.enterprice.list.map((item, index) => (
+              <li className="text-zinc-400" key={index}>
                 <a href="#">{item.title}</a>
               </li>
             ))}
