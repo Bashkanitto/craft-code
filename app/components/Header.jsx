@@ -21,23 +21,26 @@ const Header = () => {
               <div className="mt-6 text-gray-600 md:-ml-4 lg:pr-4 lg:mt-0">
                 <ul className="flex text-white lg:text-sm lg:flex lg:space-y-0">
                   <li>
-                    <a href="#" className="md:px-4 duration-75 hover:border-b">
-                      Product
+                    <a
+                      href="#about"
+                      className="md:px-4 duration-75 hover:border-b"
+                    >
+                      О Нас
                     </a>
                   </li>
                   <li>
-                    <a href="#" className=" md:px-4 hover:border-b">
-                      Playground
+                    <a href="#stack" className=" md:px-4 hover:border-b">
+                      Направления
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="md:px-4 hover:border-b">
-                      Docs
+                    <a href="#comunity" className="md:px-4 hover:border-b">
+                      Команда
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="md:px-4 hover:border-b">
-                      Blog
+                    <a href="#contact" className="md:px-4 hover:border-b">
+                      Контакты
                     </a>
                   </li>
                 </ul>
