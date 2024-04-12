@@ -2,7 +2,7 @@ import { heroList } from "./Constants";
 
 const Hero = () => {
   return (
-    <section class="relative flex flex-col  justify-center items-center text-white text-center gap-10">
+    <section className="relative flex flex-col  justify-center items-center text-white text-center gap-10">
       <button className="p-1 pr-2 border border-gray-700 rounded-full flex gap-2 items-center">
         <span className="bg-green p-1 px-2 rounded-full">New</span>Introducing
         to development
@@ -20,7 +20,7 @@ const Hero = () => {
           Связатся
         </button>
       </div>
-      <div className="mb-80 cards w-[500px] h-60 overflow-hidden border border-gray-700 rounded-2xl flex justify-center items-center shadow-xl shadow-zinc-800">
+      <div className="mb-40 cards w-[500px] h-60 overflow-hidden border border-gray-700 rounded-2xl flex justify-center items-cente">
         {heroList.map((item) => (
           <div
             className="flex flex-col gap-5 justify-center min-w-[400px]"
