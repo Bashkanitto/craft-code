@@ -3,7 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="container mb-40 h-[80vh]">
+    <section
+      id="about"
+      className="container h-[80vh] flex flex-col justify-center"
+    >
       <h2 className="text-center mb-5">О Нас</h2>
       <div className=" flex flex-col md:flex-row gap-10 justify-center items-center h-60">
         <p className="text-xs text-center md:text-start overflow-scroll h-full">

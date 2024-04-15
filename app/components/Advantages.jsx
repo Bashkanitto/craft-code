@@ -1,22 +1,31 @@
+import React from "react";
+import { advantagesList } from "./Constants";
 import Image from "next/image";
-import { advantagesList, reviewList } from "./Constants";
 
 const Advantages = () => {
   return (
     <section
-      id="stack"
-      className="container mx-auto flex flex-col justify-center items-center text-white text-center gap-10 mb-40"
+      id="courses"
+      className="p-4 mx-auto h-[100vh] flex flex-col justify-center"
     >
-      <div className="blocks flex flex-col md:flex-row flex-wrap gap-5">
+      <h2 className="text-center mb-20">Курсы</h2>
+      <div className="flex gap-5 justify-center flex-wrap sm:flex-nowrap">
         {advantagesList.map((item) => (
           <div
-            className="border border-gray-700 w-full md:w-[400px] p-10 rounded-2xl flex flex-col justify-center items-center"
             key={item.id}
+            className="flex border p-5 rounded-2xl w-full sm:w-[300px] flex-col gap-5 text-center items-center"
           >
-            <Image width={100} height={100} src={item.img} alt={item.h2} />
-            <h2>{item.h2}</h2>
-
-            <p>{item.p}</p>
+            <div className="flex sm:block items-center gap-5 sm:gap-0">
+              <Image
+                width={100}
+                height={100}
+                className="w-20 md:w-40"
+                src={item.img}
+                alt={item.h3}
+              />
+              <h3>{item.h3}</h3>
+            </div>
+            <p className="text-xs w-full sm:w-full">{item.p}</p>
           </div>
         ))}
       </div>

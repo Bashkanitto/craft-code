@@ -39,6 +39,11 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
+                    <a href="#courses" className="md:px-4 hover:border-b">
+                      Курсы
+                    </a>
+                  </li>
+                  <li>
                     <a href="#contact" className="md:px-4 hover:border-b">
                       Контакты
                     </a>

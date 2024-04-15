@@ -9,7 +9,7 @@ const Footer = () => {
             <li>{item.enterprice.title}</li>
             {item.enterprice.list.map((item, index) => (
               <li className="text-zinc-400" key={index}>
-                <a href="#">{item.title}</a>
+                <a href={item.link}>{item.title}</a>
               </li>
             ))}
           </ul>
@@ -20,7 +20,7 @@ const Footer = () => {
             <li>{item.docs.title}</li>
             {item.enterprice.list.map((item, index) => (
               <li className="text-zinc-400" key={index}>
-                <a href="#">{item.title}</a>
+                <a href={item.link}>{item.title}</a>
               </li>
             ))}
           </ul>
@@ -31,7 +31,7 @@ const Footer = () => {
             <li>{item.comunity.title}</li>
             {item.enterprice.list.map((item, index) => (
               <li className="text-zinc-400" key={index}>
-                <a href="#">{item.title}</a>
+                <a href={item.link}>{item.title}</a>
               </li>
             ))}
           </ul>

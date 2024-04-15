@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="container flex flex-col justify-center items-center text-center gap-10 mb-20">
+    <section className="container flex flex-col justify-center items-center text-center gap-10 mb-40">
       <button className="p-1 pr-2 border border-gray-700 rounded-full flex gap-2 items-center">
         <span className="bg-green p-1 px-2 rounded-full">New</span>Introducing
         to development

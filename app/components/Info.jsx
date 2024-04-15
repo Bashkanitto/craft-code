@@ -2,7 +2,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const Info = () => {
   return (
-    <section className="container mx-auto mb-40">
+    <section className="container mx-auto">
       <div className="flex flex-col items-center">
         <p className="text-green">Контакты</p>
         <h2 className="w-full md:w-1/2 text-center mb-10">Наши контакты</h2>

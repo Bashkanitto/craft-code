@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="container mx-auto mb-40  flex flex-col lg:flex-row  gap-10 justify-between items-center lg:items-center"
+      className="container h-[80vh] mx-auto flex flex-col lg:flex-row  gap-10 justify-center items-center lg:items-center"
     >
       <h2 className="flex flex-wrap gap-4 text-xl md:text-3xl text-center lg:text-start w-full md:w-1/2 ">
         Оставьте свои контакты, мы свами обьязательно свяжемся
