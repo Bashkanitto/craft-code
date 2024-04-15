@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Advantages from "./components/Advantages";
+import Courses from "./components/Courses";
 import Comunity from "./components/Comunity";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Info from "./components/Info";
 import Request from "./components/Request";
 import Review from "./components/Review";
+import Selection from "./components/Selection";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
       <main className="overflow-hidden text-white">
         <Hero />
         <About />
-        <Advantages />
+        <Courses />
         <Request />
+        <Selection />
         <Comunity />
         <Review />
         <Info />

@@ -16,7 +16,7 @@ export const heroList = [
   },
 ];
 
-export const advantagesList = [
+export const coursesList = [
   {
     id: 1,
     img: "/images/flutter.png",

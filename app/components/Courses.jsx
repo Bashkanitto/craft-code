@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import { ITtools, adroid, advantagesList, python } from "./Constants";
+import { ITtools, adroid, coursesList, python } from "./Constants";
 import Image from "next/image";
 
 let index = 0;
-const Advantages = () => {
+const Courses = () => {
   const massive = [adroid, python, ITtools];
   const [isOpen, setIsOpen] = useState();
 
@@ -24,13 +24,13 @@ const Advantages = () => {
     >
       <h2 className="text-center mb-20">Курсы</h2>
       <div className="flex gap-5 justify-center flex-wrap sm:flex-nowrap">
-        {advantagesList.map((item) => (
+        {coursesList.map((item) => (
           <button
             onClick={(event) => openModal(item.id, event)}
             key={item.id}
-            className="flex h-[375px] overflow-hidden border p-5 rounded-2xl w-full sm:w-[300px] flex-col gap-5 text-center items-center"
+            className="flex h-[375px] overflow-hidden border rounded-2xl w-full sm:w-[300px] flex-col gap-5 text-center items-center"
           >
-            <div className="hover:-translate-y-96 duration-500">
+            <div className="hover:-translate-y-[400px] duration-500">
               <div className="flex sm:flex-col items-center gap-5 sm:gap-4">
                 <Image
                   width={100}
@@ -42,16 +42,17 @@ const Advantages = () => {
                 <h3>{item.h3}</h3>
               </div>
               <p className="text-xs w-full sm:w-full mb-40">{item.p}</p>
-
-              <p className="">
-                <span className="text-white">Формат: </span>
-                {item.format}
-              </p>
-              <p>
-                <span className="text-white">Длительность: </span>
-                {item.duration}
-              </p>
-              <h4 className="text-xl">{item.price}</h4>
+              <div className="bg-green p-2 min-h-[375px] flex flex-col justify-center">
+                <p className="">
+                  <span className="text-white">Формат: </span>
+                  {item.format}
+                </p>
+                <p>
+                  <span className="text-white">Длительность: </span>
+                  {item.duration}
+                </p>
+                <h4 className="text-xl pb-40">{item.price}</h4>
+              </div>
             </div>
           </button>
         ))}
@@ -60,4 +61,4 @@ const Advantages = () => {
   );
 };
 
-export default Advantages;
+export default Courses;

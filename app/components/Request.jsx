@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Request = () => {
   return (
-    <section className="container mx-auto mb-40">
+    <section className="container mx-auto h-[80vh]">
       <h2 className="text-center mb-20">Процесс Подачи заявки на Обучение</h2>
       <div className="flex gap-10 flex-wrap">
         {requestList.map((item) => (
