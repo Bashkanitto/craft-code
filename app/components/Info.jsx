@@ -9,7 +9,9 @@ const Info = () => {
         <div className="flex flex-col lg:flex-row gap-10 border rounded-2xl lg:rounded-full p-8 w-full justify-between">
           <div className="flex gap-4 lg:border-r w-full items-center lg:w-1/3 justify-start lg:justify-center">
             <MapPin color="#00e645" strokeWidth={2.25} />
-            <span>Жамб область, район Байзак, Бурыл, ул. 9 мая 5</span>
+            <span>
+              Жамбылская область, Байзакский район, село Бурыл, ул. 9 мая 5
+            </span>
           </div>
           <div className="flex gap-4 lg:border-r w-full items-center lg:w-1/3 justify-start lg:justify-center">
             <Phone color="#00e645" strokeWidth={2.25} />
